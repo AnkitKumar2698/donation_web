@@ -1,0 +1,217 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'poppins',sans-serif;
+    scroll-behavior: smooth;
+}
+body{
+    background-color: rgb(0, 126, 143);
+}
+header{
+    margin-top: 20px;
+    max-width: 1300px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    justify-content: space-between;
+    background-color: lightblue;
+    height: 100px;
+}
+
+.logo{
+    font-size: 30px;
+    text-decoration: none;
+    color: white;
+    font-weight: bolder;
+    position: relative;
+    top: 20px;
+    left: 100px;
+}
+header ul{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 40px;
+    margin-right: 60px;
+}
+header ul li{
+    list-style-type:none ;      
+    position: relative;
+}
+header ul li a{
+    position: relative;
+    display: inline-block;
+    margin: 0 15px;
+    text-decoration: none;
+    color:Black;
+    font-weight: 800;
+}
+section{
+    max-width: 1300px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.owl-carousel{
+    z-index: -10;
+}
+.owl-carousel .item img{
+    height: 600px;
+}
+.donate{
+   z-index: 20px;
+   position: absolute;
+   margin-top: 180px;
+   max-width: 400px;
+   color: white;
+   text-align: center;
+   line-height: 50px;
+   word-spacing: 2px;
+   margin-left: 340px;
+   font-size: 20px;
+   background-color: rgb(0,0,0);
+   background-color: rgba(0,0,0, 0.4);
+   padding:10px;
+}
+.donate button{
+    color: white;
+    background: blue;
+    padding: 10px;
+    border-radius: 30px;
+    text-decoration: none;
+}
+.donate button a{
+  
+    color: white;
+    background: blue;
+    padding: 10px;
+    border-radius: 30px;
+    text-decoration: none;
+}
+.donate button:hover{
+    color: white;
+    background: yellow;
+    padding: 10px;
+    border-radius: 30px;
+
+    cursor: pointer;
+}
+.trust{
+background-color: white;
+height: 500px;
+margin-top: -20px;
+}
+
+.heading{
+    font-size: 22px;
+     text-align: center;
+     position: relative;
+     top: 40px;
+     font-weight: 800;
+}
+.trust_gained{
+    display: flex;
+    justify-content: space-evenly;
+    max-width: 900px;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+   top: 100px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+.trust_gained img{
+    height: 100px;
+
+}
+.trust_gained h3{
+    max-width: 120px;
+}
+.link_social{
+    display: flex;
+    justify-content: space-evenly;
+    position: relative;
+     padding: 30px;
+    height: 120px;
+    color: white;
+    background-color: rgb(32, 32, 32);
+    margin-top: -50px;
+    text-align: center;
+}
+.link_social .icons{
+display: flex;
+justify-content: space-evenly;
+}
+footer{
+    background-color: black;
+    color: white;
+    text-align: center;
+    max-width: 1300px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.content{
+    text-align: center;
+    padding: 60px;
+    margin-bottom: 20px;
+    background-color: white;
+}
+.content h2{
+    margin-top: 20px;
+}
+.contact{
+    background-color: rgb(228, 228, 129) ;
+    height: 700px;
+}
+.contact-details .map{
+    width:65%;
+    margin-left:80px;
+    height: 300px;
+}
+.contact-details{
+  position: relative; 
+  display: flex;
+  top: 20px;
+
+}
+.contact-details .form{
+   display: flex;
+   flex-direction: column;
+    flex-wrap: wrap;
+}
+.contact-details input,textarea{
+    padding: 15px 20px 15px 20px;
+    margin-top: 20px;
+    border: 1px solid black;
+    resize: vertical;
+    margin-right: 80px;
+}
+.contact-details button{
+    max-width: 140px;
+    margin-top: 20px;
+    padding: 15px 40px 15px 40px;
+    border: 1px solid black;
+}
+.contact-details button:hover{
+    max-width: 140px;
+    margin-top: 20px;
+    padding: 15px 40px 15px 40px;
+    border: 1px solid black;
+    background-color: blue;
+    color: white;
+    cursor: pointer;
+}
+.donate_us button{
+    padding: 10px;
+    margin-top: 20px;
+    background-color:blue;  
+}
+.donate_us button:hover{
+    padding: 10px;
+    margin-top: 20px;
+    background-color:aqua;  
+}
+.donate_us button a{
+    text-decoration: none;
+    color: white;
+}
